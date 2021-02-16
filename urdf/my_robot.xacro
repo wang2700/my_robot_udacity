@@ -94,6 +94,10 @@
     </visual>
   </link>
 
+  <gazebo reference="left_wheel">
+    <material>Gazebo/Green</material>
+  </gazebo>
+
   <link name='right_wheel'>
     <inertial>
       <mass value="5.0"/>
@@ -119,6 +123,10 @@
       </geometry>
     </visual>
   </link>
+
+  <gazebo reference="right_wheel">
+    <material>Gazebo/Green</material>
+  </gazebo>
 
   <link name='camera'>
     <inertial>
