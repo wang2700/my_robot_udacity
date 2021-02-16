@@ -68,6 +68,11 @@
 
   </link>
 
+  <gazebo reference="chassis">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+
   <link name='left_wheel'>
     <inertial>
       <mass value="5.0"/>
@@ -153,6 +158,10 @@
       </geometry>
     </visual>
   </link>
+
+  <gazebo reference="camera">
+    <material>Gazebo/Red</material>
+  </gazebo>
 
   <link name='hokuyo'>
     <inertial>
